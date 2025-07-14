@@ -125,7 +125,7 @@ input::placeholder{
     color: #FF136F;
 }
 .televation-buy{
-     font-size: 16px;
+    font-size: 16px;
     font-weight: 500;
     background: linear-gradient(#FF589B ,#FF136F);
     border-radius: 6px;
@@ -188,3 +188,62 @@ input::placeholder{
     margin: 15px 48px 15px 0;
 }
 /* categories section ends here  */
+
+/* shoes section start here  */
+.shoes-section{
+    width: 1128px;
+    margin: 0 117px 0 111px;
+    margin-bottom: 98px;
+}
+.shoes-title-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.shoes-section-title{
+   font-size: 36px;
+   font-weight: 600;
+}
+
+.shoes-section-title-2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF9D00;
+}
+.shoes-card-body{
+    background-color: #ffffff;
+}
+.shoes-card-items
+.shoes-card
+.shoes-card-img{
+    height: 202px;
+    width: 336px;
+    margin-bottom: 22px;
+}
+.shoes-card-title{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.shoes-card-description{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+.shoes-card-prize{
+    margin-bottom: 16ppx;
+    font-size: 24px;
+    font-weight: 500;
+}
+.shoes-card-btn{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    padding: 14px 16px;
+    color: #ffffff;
+    background-color: black;
+    margin-bottom: 24px;
+
+}
+/* shoes section ends here  */
