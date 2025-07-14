@@ -16,3 +16,175 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
+body{
+    /* max-width: 1270px;
+    margin: 0 auto; */
+    background-color: #F4F4F4;
+}
+
+.container{
+    max-width: 1412px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* nav section start here  */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 49px 32px 63px 46px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(112, 112, 112, 1);
+}
+
+input::placeholder{
+    color: #CCCCCC;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.input-area{
+    position: relative;
+}
+
+
+.input-area input{
+    width: 450px;
+    padding: 12px;
+    margin-left: 20px;
+    border-radius: 66px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+
+.input-area i{
+    color: #bababa;
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+
+.nav-links{
+    display: flex;
+
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    
+    text-decoration: none;
+    margin: 0 24px 0 24px;
+    color: rgba(112, 112, 112, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+/* nav section ends here  */
+
+/* telvation section start here  */
+.televation-section{
+   /* margin-bottom: 64px; */
+   height: 520px;
+}
+
+.tv-section-body{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 117px 0 111px;
+   width: 1200px;
+   /* height: 455px; */
+   margin: 0 auto;
+   background-color: #FEEAE9;
+   border-radius: 20px;
+
+}
+
+.televation-heading{
+    margin: 68px 0 68px 46px;
+}
+
+.televatin-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.televation-description{
+    font-size: 16px;
+    color: #4e4e4e;
+    margin-bottom: 8px;
+}
+.televation-prize{
+    font-size: 41px;
+    font-weight: 500;
+    color: #FF136F;
+}
+.televation-buy{
+     font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(#FF589B ,#FF136F);
+    border-radius: 6px;
+    border: none;
+    padding: 14px 16px;
+    color: #ffffff;
+}
+.televation-img{
+   
+}
+.tv-img{
+   margin: 38px 63px 39px 0;
+}
+/* televation section start here  */
+
+/* categories section start here  */
+.categories-section{
+    margin-bottom: 64px;
+    height: 255px;
+}
+
+.categories-body{
+    width: 1128px;
+    margin: 0 117px 0 111px;
+
+}
+.categories-title{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.categories-item{
+    display: flex;
+    gap: 26px;
+}
+.categories-items{
+    color: #ffffff;
+    display: flex;
+    gap: 60px;
+    border-radius: 12px;
+    background: linear-gradient(#FF9C35, #FFD019);
+}
+
+.linear-gradient-1{
+    background: linear-gradient(#FF589B,#FF136F);
+}
+.linear-gradient-2{
+    background: linear-gradient(#4289FF, #3F07F8);
+}
+
+.categories-name{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 33px 47px 46px 33px;
+}
+.categories-img{
+    width: 70px;
+    height: 94px;
+    margin: 15px 48px 15px 0;
+}
+/* categories section ends here  */
