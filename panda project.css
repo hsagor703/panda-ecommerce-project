@@ -28,6 +28,12 @@ body{
     margin: 0 auto;
     background-color: #ffffff;
 }
+.container-1{
+    max-width: 1412px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 600px;
+}
 
 /* nav section start here  */
 .nav-section{
@@ -90,7 +96,6 @@ input::placeholder{
 
 /* telvation section start here  */
 .televation-section{
-   /* margin-bottom: 64px; */
    height: 520px;
 }
 
@@ -99,7 +104,6 @@ input::placeholder{
    justify-content: space-between;
    margin: 0 117px 0 111px;
    width: 1200px;
-   /* height: 455px; */
    margin: 0 auto;
    background-color: #FEEAE9;
    border-radius: 20px;
@@ -210,15 +214,26 @@ input::placeholder{
     font-weight: 500;
     color: #FF9D00;
 }
-.shoes-card-body{
-    background-color: #ffffff;
+
+.shoes-card-items{
+    display: flex;
+    gap: 20px;
 }
-.shoes-card-items
-.shoes-card
+.shoes-card{
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    
+}
 .shoes-card-img{
-    height: 202px;
+    height: 252px;
     width: 336px;
     margin-bottom: 22px;
+    padding: 2px 12px 2px 12px;
+}
+
+.card-details{
+    padding: 0 26px 26px 24px;
 }
 .shoes-card-title{
     font-size: 24px;
@@ -231,7 +246,7 @@ input::placeholder{
     color: #4E4E4E;
 }
 .shoes-card-prize{
-    margin-bottom: 16ppx;
+    margin-bottom: 16px;
     font-size: 24px;
     font-weight: 500;
 }
@@ -243,7 +258,59 @@ input::placeholder{
     padding: 14px 16px;
     color: #ffffff;
     background-color: black;
-    margin-bottom: 24px;
 
 }
 /* shoes section ends here  */
+
+/* footer section start here  */
+footer{
+}
+.footer-section{
+    width: 1227px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 66px 0 75px 0;
+}
+
+.footer-body{
+    padding: 146px 256px;
+    border-radius: 20px;
+    background-color: #FFF2F1;
+
+}
+
+.footer-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.footer-tag-line{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color: #707070;
+}
+.footer-form .footer-input{
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    background-color: #ffffff;
+    width: 460px;
+}
+
+.footer-form input::placeholder{
+    font-size: 24px;
+    color: #CCCCCC;
+}
+
+.footer-form .footer-btn{
+    background: linear-gradient(to right, #FF589B,#FF136F);
+    color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px ;
+    width: 160px;
+}
+
+.footer-form input{
+    border: none;
+}
+/* footer section ends here  */
