@@ -196,7 +196,7 @@ input::placeholder{
 /* shoes section start here  */
 .shoes-section{
     width: 1128px;
-    margin: 0 117px 0 111px;
+    margin: 0 auto;
     margin-bottom: 98px;
 }
 .shoes-title-body{
